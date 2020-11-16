@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Beneficios from '../components/Beneficios';
+// import Beneficio from '../components/Beneficio';
 import '../assets/styles/App.scss';
+import Ups from '../components/Ups';
 
 const App = () => (
   <div className='App'>
     <Header />
-    <Beneficios />
+    <Ups />
     <Footer />
   </div>
 );
