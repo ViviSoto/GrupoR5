@@ -1,0 +1,140 @@
+.bono {
+  width: 400px;
+  background: linear-gradient(to bottom,  #361F73, #00CE9D);
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.bono__titulo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -10px 10px;
+}
+
+.bono__titulo h2{
+  color: #00CE9D;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing:2px;
+  width: 100%;
+  text-align: center;
+}
+
+.close {
+  text-decoration: none;
+  font-size: 33px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #00CE9D;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.close:hover {
+  background: #60AFF0;
+}
+
+
+.bono__contenedor{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 1px 10px 5px 10px;
+}
+
+.bono__contenedor h3{
+  color: #00CE9D;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.bono__contenedor--form{
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.bono__contenedor--form p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.bono__contenedor--form form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.bono__contenedor--form input{
+  border: none;
+  border-radius: 10px 10px 0 0;
+  padding: 15px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: rgb(182, 171, 171);
+}
+
+.bono__contenedor--form button{
+  border: none;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+  background: #00CE9D;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.bono__contenedor--bonos{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.bono__contenedor--bonos p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.bono__contenedor--bonos .card {
+  background: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.bono__contenedor--bonos .card p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.bono__contenedor--bonos button{
+  border: none;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+  background: #FF4500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .bono{
+    width: 90%;
+  }
+}

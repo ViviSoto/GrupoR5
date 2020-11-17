@@ -12,7 +12,7 @@ const Beneficio = () => (
     <div className='beneficios__contenedor'>
       <div className='beneficios__contenedor--grupo '>
         <div className='beneficio '>
-          <h4>Dafiti</h4>
+          <img src='../assets/img/dafiti.png' alt='logo-dafiti' />
           <p>
             20% de descuento en moda Dafiti.com.co Válido hasta el 30 de noviembre o agotar existencias. Terminos y condiciones
             {' '}
@@ -20,21 +20,21 @@ const Beneficio = () => (
           </p>
         </div>
         <div className='beneficio '>
-          <h4>cornershop</h4>
+          <img src='../assets/img/corner.png' alt='logo-cornershop' />
           <p>
             Bono de $40.000 para hacer mercado en cornershop. Aplica para clientes que compraron su anterior SOAT con Grupo R5 Válido hasta el 30 de noviembre o agotar existencias. Terminos y condiciones
             {' '}
             <a> Aquí</a>
           </p>
         </div>
-        <div className='beneficio'>
-          <img className='beneficio__img' src='../assets/img/calendar.png' alt='calendario' />
+        <div className='beneficio2'>
+          <img src='https://img.icons8.com/ios/50/000000/tear-off-calendar--v1.png' alt='calendar' />
           <p>
             Iniciará vigencia el día después de su vencimiento.
           </p>
         </div>
-        <div className='beneficio'>
-          <img className='beneficio__img' src='../assets/img/phone.png' alt='celular' />
+        <div className='beneficio2'>
+          <img src='https://img.icons8.com/ios/64/000000/push-notifications.png' alt='celular' />
           <p>
             Entrega inmediata por correo y SMS.
           </p>

@@ -9,15 +9,15 @@ const Ups = () => (
       <a href='#' id='close' className='close'><span>&times;</span></a>
     </div>
     <div className='ups__contenedor'>
-      <img className='ups__contenedor--img' src='../assets/img/calendar.png' alt='calendario' />
+      <img src='https://img.icons8.com/wired/64/000000/timetable.png' alt='calendario' />
       <p>Aún falta mucho para el vencimiento de tu SOAT actual. Si quieres te enviamos un recordatorio cuando seal el momento ideal para adquirirlo. :)</p>
       <div className='ups__contenedor--form'>
         <h3>Déjanos tus datos</h3>
-        <form method='post' action='./php/login.php' name='inicioSesion' onSubmit='return validar ();'>
+        <form>
           <input name='nombre' className='input' type='text' placeholder='Nombre' />
           <input name='celular' className='input' type='text' placeholder='Celular' />
           <input name='correo' className='input' type='text' placeholder='Correo' />
-          <button type='button' onClick=''>Enviar</button>
+          <button type='button'>Enviar</button>
         </form>
       </div>
     </div>
