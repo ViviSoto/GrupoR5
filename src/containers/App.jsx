@@ -9,12 +9,12 @@ import TarjetaCredito from '../components/TarjetaCredito';
 import Pse from '../components/Pse';
 import Vehiculo from '../components/Vehiculo';
 import Descubrir from '../components/Descubrir';
-import Figura from '../components/Figura';
+import Pasoapaso from '../components/Pasoapaso';
 
 const App = () => (
   <div className='App'>
     <Header />
-    <Figura />
+    <Pasoapaso />
     <Descubrir />
     <Vehiculo />
     <Beneficio />
