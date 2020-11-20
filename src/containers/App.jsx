@@ -8,12 +8,14 @@ import Bono from '../components/Bono';
 import TarjetaCredito from '../components/TarjetaCredito';
 import Pse from '../components/Pse';
 import Vehiculo from '../components/Vehiculo';
-import Formsoat from '../components/Formsoat';
+import Descubrir from '../components/Descubrir';
+import Figura from '../components/Figura';
 
 const App = () => (
   <div className='App'>
     <Header />
-    <Formsoat />
+    <Figura />
+    <Descubrir />
     <Vehiculo />
     <Beneficio />
     <Ups />
